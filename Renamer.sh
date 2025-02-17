@@ -6,7 +6,7 @@ read -p "Enter the targetdirectory : " TARGETDIR
 echo Targetdirectory is "$TARGETDIR"
 
 cd "$SEARCHDIR"
-touch $SEARCHDIR/Filenames.txt
+touch ./Filenames.txt
 
 for f in *.mp3  #for all mp3 files in workingdirectory where f is name of file
 do
@@ -22,3 +22,4 @@ do
    unset ALBUM
    unset FILENAME
 done
+cat ./Filenames.txt
