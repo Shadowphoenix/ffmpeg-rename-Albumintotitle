@@ -17,9 +17,9 @@ do
     FILENAME = "$ARTIST$ALBUM$TITLE.mp3"
     echo "$FILENAME" >> ./filenames.txt 
     #cp -n "$f" "$TARGETDIR"/"$FILENAME.mp3"
-   unset ARTIST
-   unset TITLE
-   unset ALBUM
-   unset FILENAME
+    unset ARTIST
+    unset TITLE
+    unset ALBUM
+    unset FILENAME
 done
 cat ./Filenames.txt
